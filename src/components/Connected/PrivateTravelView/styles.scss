@@ -1,0 +1,70 @@
+.privTravView{
+    margin: 0 5%;
+    height: 100vh;
+
+    &-header{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 1em;
+    }
+    &-infos{
+        text-align: center;
+        border: 2px solid #afafaf;
+        
+        
+        
+    }
+    &-title{
+        font-size: 2em;
+        margin: 1.5em;
+        font-weight: bold;
+    }
+    &-date{
+        font-size: 1em;
+        font-weight: bold;
+    }
+    &-photo{
+        display: flex;
+    }
+        
+    &-cover{
+        height: 250px;
+        width: 400px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    &-picture{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin-left: 1em
+    }
+    &-avatar{
+        border: 2px solid black;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;    
+    }
+    &-name{
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+    &-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10%;
+    }
+
+    //partie du bas
+    &-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+        margin: auto;
+        border: 2px solid #afafaf;
+        border-radius: 5px;
+    }
+}

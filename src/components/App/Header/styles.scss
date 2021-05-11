@@ -1,0 +1,33 @@
+.header{
+    display: flex; 
+    align-items: center;
+    // justify-content: space-between;
+    padding: 1em 2em;
+
+    &-left{
+        display: flex;
+        align-items: center;
+    }
+
+    &-right{
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: flex-end;;
+    }
+
+    &-logo{
+        height: 100px;
+        &:hover{
+            transition: filter .6s;
+            filter: drop-shadow(2px 2px 10px #1968B9);
+        }
+    }
+}
+    
+
+    
+
+    
+
+    

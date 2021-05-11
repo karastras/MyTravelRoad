@@ -1,0 +1,14 @@
+.app {
+    background: url("./van.png") no-repeat fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+.app-welcome{
+    background-image: none;
+}

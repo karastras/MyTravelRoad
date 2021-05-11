@@ -1,0 +1,255 @@
+//===========================================================
+//GENERAL
+//===========================================================
+.profile{
+    &-picture{
+        margin: auto;
+        width: 80%;
+    }
+
+    &-cover{
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px black;
+    }
+    
+    &-photo{
+        margin: auto;
+        width: 80vw;
+        height: 400px;
+    }
+    
+    &-picture{
+        display: flex;
+        height: 50px;
+    }
+
+    &-avatar{
+        position: relative;
+        top: -140px;
+        left: -60px;
+        height: 200px;
+        width: 200px;
+        filter: drop-shadow(2px 2px 2px black);
+        border-radius: 50%;
+        object-fit: cover;
+    }    
+
+    .voyage{
+        height: 400px;
+        width: 600px;
+        margin: 3em 2em;
+    }
+    
+    &-pseudo{
+        position: relative;
+        left: -20px;
+        top: -60px;
+        font-style: italic;
+        color: #fff;
+        text-shadow: 1px 1px 4px black;
+        font-size: 1.8em;
+        font-weight: bold;;
+    }
+
+    &-journal{
+        width: 60%;
+        margin: 2em auto;
+        padding: .6em 0 1.8em ; 
+        text-align: justify;
+        font-style: italic;
+        background-color: rgba(255, 255, 255, 0.68);
+        border-radius: 10px;
+    }
+
+    &-journal h2{
+        text-align: center;
+        font-style: normal;;
+    }
+
+    &-journal p{
+        width: 80%;
+        margin: auto;
+    }
+
+    &-title{
+        font-size: 3em;
+        font-weight: bold;
+        margin: .5em 1em ;
+        text-shadow: 1px 1px 3px #fff;
+    }
+}
+.travel-cover{
+
+    box-shadow: 2px 2px 5px black;
+}
+
+.past-travels{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.past-travels img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.voyage-title{
+    position: relative;
+    top: -110px;
+    color: #fff;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 0 2em;
+}
+
+// //===========================================================
+// //MOBILE - max. 480px 
+// //===========================================================
+// @media (max-width: 480px){
+//     .profile-avatar{
+//         height: 150px;
+//         top: -110px;
+//         left: -30px;
+//     }
+
+//     .profile-pseudo{
+//         top: -40px;
+//         left: -20px;
+//     }
+
+//     .past-travels{
+//        display: block;
+//        text-align: center;
+//        margin-top: 2em;
+//     }
+
+//     .past-travels img{
+//         margin-bottom: 1em;
+//         width: 100px;
+//     }
+
+//     .past-travels h2{
+//         position: relative;
+//         top: -60px;
+//         color: #fff;
+//         font-size: 1.3em;
+//         text-shadow: 1px 1px 2px rgb(0, 0, 0);
+//         font-weight: bold;
+//     }
+
+//     .profile-journal{
+//         margin-bottom: 2em;
+//     }
+// }
+
+// //===========================================================
+// //TABLET - max. 768px 
+// //===========================================================
+// @media (max-width: 768px){
+//     .profile-journal{
+//         margin-bottom: 1em;
+//     }
+    
+//     .past-travels{
+//         display: block;
+//         text-align: center;
+//         margin-top: 2em;
+//      }
+
+//     .past-travels img{
+//         height: 300px;
+//         width: 500px;
+//     }
+    
+//     .past-travels h2{
+//         position: relative;
+//         top: -110px;
+//         color: #fff;
+//         font-size: 2em;
+//         text-shadow: 1px 1px 2px rgb(0, 0, 0);
+//         font-weight: bold;
+//     }
+// }
+
+// //===========================================================
+// //TABLET LANDSCAPE - max. 1024px 
+// //===========================================================
+// @media (max-width: 1024px){
+//     .profile-journal{
+//         margin-bottom: 1em;
+//     }
+    
+//     .past-travels{
+//         display: block;
+//         text-align: center;
+//         margin-top: 2em;
+//     }
+
+//     .past-travels img{
+//         height: 350px;
+//         width: 580px;
+//     }
+    
+//     .past-travels h2{
+//         position: relative;
+//         top: -110px;
+//         color: #fff;
+//         font-size: 2em;
+//         text-shadow: 1px 1px 2px rgb(0, 0, 0);
+//         font-weight: bold;
+//     }
+// }
+
+// //===========================================================
+// //LAPTOP - min. 1024px + max. 1600px 
+// //===========================================================
+// @media screen and (min-width: 1024px) and (max-width: 1600px) {
+//     .profile-journal{
+//         margin-bottom: 1em;
+//     }
+    
+//     .past-travels{
+//         display: block;
+//         text-align: center;
+//         // margin-top: 2em;
+//         margin: auto;
+//     }
+    
+//     .past-travels img{
+//         height: 350px;
+//         width: 520px;
+//     }
+    
+//     .past-travels h2{
+//         position: relative;
+//         top: -110px;
+//         color: #fff;
+//         font-size: 2em;
+//         text-shadow: 1px 1px 2px rgb(0, 0, 0);
+//         font-weight: bold;
+//     }
+// }
+    
+// //===========================================================
+// //LAPTOP - min. 1600px 
+// //===========================================================
+// @media screen and (min-width: 1600px){
+
+//     .past-travels img{
+//         width: 550px;
+//         height: 350px;
+//     }
+
+//     // .past-travels h2{
+//     //     left: 5px;
+//     // }
+
+// }

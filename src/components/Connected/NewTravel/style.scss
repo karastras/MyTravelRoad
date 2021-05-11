@@ -1,0 +1,163 @@
+.leaflet-container{
+    position: relative;
+    height: 65vh;
+    width: 100%;
+    margin: auto;
+    z-index: 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px grey;
+}
+
+.travel-new{
+    padding-top: 1em;
+    margin: 3em;
+}
+
+.newTravel{
+    line-height: 3em;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    
+    &-title{
+        font-size: 2em;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    &-country{
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    &-departure{
+        font-size: 1em;
+    }
+
+    &-create{
+        display: flex;
+        align-self: center;
+        background-color: #1774C7;
+        color: #FFF;
+        font-size: 1em;
+        font-weight: bold;
+        padding: .3em 1em;
+        border-radius: 3px;
+        
+        &.opened{
+            display: none;
+        }
+
+    }
+    &-closed{
+        opacity: 0.4;
+    }
+
+    &-create span{
+        align-self: center;
+        color: #FFF;
+    } 
+}
+
+.top-block{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-block{
+    height: 100%;
+    width: auto;
+}
+
+.fa-map-marked-alt{
+    color: #fff;
+    padding-right: .2em;
+    width: 110px;
+    align-self: center;
+
+}
+
+.steps-select{
+    padding: 1em;
+}
+
+#steps{
+    padding: .5em;
+}
+
+.newStep{
+    position: relative;
+    z-index: 2;
+    top: -400px;
+    margin: auto;
+    background-color: lightskyblue;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #777; 
+    opacity: 1;
+
+    &-closed{
+        display: none;
+    }
+
+    &-form{
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+    }
+
+    .newStep-form label{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .newStep-form h1{
+        font-weight: bold;
+        align-self: center;
+        color: #fff;
+        font-size: 1em;
+        text-shadow: 1px 1px 2px grey;
+    }
+
+    .newStep-form span{
+        color: red;
+    }
+
+    &-input{
+        width: 60%;
+        margin-bottom: .5em;
+        height: 2.5em;
+    }
+
+    &-button{
+        background-color: #1774C7;
+        color: #FFF;
+        font-size: 1em;
+        font-weight: bold;
+        border-radius: 3px;
+        height: 2.5em;
+        margin: 1em auto 0;
+    }
+}
+
+.leaflet-popup-content { 
+    width:auto !important; 
+    text-align: center;
+}
+
+.popup{
+    &-name{
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    &-city{
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    &-image{
+        height: 30px;
+        width: 50px;
+    }
+}

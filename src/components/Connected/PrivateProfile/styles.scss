@@ -1,0 +1,118 @@
+.privateProfile{
+    display: flex;
+    width: 90vw;   
+    margin: auto; 
+    margin-top: 6em;  
+    
+    &-infos{
+        width: 50%;
+        margin: auto;
+        padding: .5em;
+        text-align: center;
+    }
+    &-profil{
+        width: 100%;
+        background-color: #ffffff;
+        padding: .6em;
+        border-radius: 5px;
+        margin: auto;
+        box-shadow: 2px 2px 5px black;
+    }
+    &-titleProfile{
+        font-weight: bold;
+        font-style: italic;
+        margin: 1em;
+    }
+    &-article{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        max-height: 300px;
+        margin: auto;
+        margin-top: 1em;
+        border-radius:5px;
+        padding: .2em 1.3em;
+        box-shadow: 2px 2px 5px black;
+    }
+    
+    &-photo{
+        height: 400px;
+        width: 650px;
+        margin: 0;
+    }
+
+    &-cover{
+        height: 400px;
+        width: 650px;
+        object-fit: cover;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px black;
+    }
+
+    &-picture{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-titleDescription{
+        font-weight: bold;
+        font-style: italic;
+        margin: 1em;
+    }
+    &-buttons{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2em;
+
+    }
+    &-button{
+        margin: 1em 2em 2em 2em;
+        padding: .6em 1.8em;
+        font-size: .9em;
+        font-weight: bold;
+        background-color: #1774C7;
+        color: #FFF;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 1px 1px 2px black;
+        transition: background-color 0.3s;
+        &:hover{
+            background-color: rgb(0, 136, 255);
+        }
+    }
+    &-delete{
+        margin: 1em 2em 2em 2em;
+        padding: .6em 1.8em;
+        font-size: .9em;
+        font-weight: bold;
+        background-color: rgb(172, 12, 12);
+        color: #FFF;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 1px 1px 2px black;
+        transition: background-color 0.3s;
+        &:hover{
+            background-color: rgb(216, 0, 0);
+        }
+    
+    }
+
+    &-avatar{
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 2em 1em;
+        filter: drop-shadow(1px 1px 2px black)
+        
+    }
+    &-name{
+        color: #fff;
+        font-weight: bold;
+        font-size: 3em;
+        text-shadow: 2px 2px 5px black;
+    }
+    
+
+}

@@ -1,0 +1,143 @@
+.editProfile{
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    margin: auto;
+    align-items: center;
+
+    //Partie de gauche
+    &-form{
+        width: 50%;
+        padding: 1.5em;
+        border-radius: 5px;
+        border: 2px solid #dfdfdf;
+        background-color:#dae7f4 ;
+    }
+    &-title{
+        font-weight: bold;
+        font-style: italic;
+    }
+    &-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+    &-description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2em;
+    
+    }
+
+    &-password{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &-buttons{
+        display: flex;
+        justify-content: center;
+    }
+    &-input{
+        width: 80%;
+        padding: .7em;
+        font-size: 1em;
+        border: 1px solid #dfdfdf;
+        border-radius: .2em;
+        margin: 0.5em;
+        &-city{
+            width: 70%;
+        padding: .7em;
+        font-size: 1em;
+        border: 1px solid #dfdfdf;
+        border-radius: .2em;
+        margin: 0.5em;
+        }
+        &-cityCode{
+            width: 30%;
+        padding: .7em;
+        font-size: 1em;
+        border: 1px solid #dfdfdf;
+        border-radius: .2em;
+        margin: 0.5em;
+        }
+        
+    }
+    
+    &-cityInfo{
+        display: flex;
+        width: 82%;
+    }
+    
+    &-editMessage{
+        display: flex;
+        justify-content: center;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: rgb(184, 10, 10)
+    }
+
+    //partie de droite
+    &-picture{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    &-cover{
+        margin: 2em 2em 0 2em;
+        border: 1px solid black;
+        border-radius: 0.5em;
+        height: 450px;
+        width: 700px;
+    }
+
+    &-avatar{
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+        margin-top: 2em;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+    &-uploadAvatar{
+        display: flex;
+        align-items: flex-end;
+        align-self: center;
+        &.closed {
+            display:none;
+          }
+    }
+
+
+    &-button{
+        margin: 1em 2em 2em 2em;
+        padding: .6em 1.8em;
+        font-size: .9em;
+        font-weight: bold;
+        background-color: #1774C7;
+        color: #FFF;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 1px 1px 2px black;
+        transition: background-color 0.3s;
+        &:hover{
+            background-color: rgb(0, 136, 255);
+        }
+        &.opened {
+            display:none;
+          }
+    }
+    
+}
+.cancel{
+    background-color: rgb(172, 12, 12);
+    &:hover{
+        background-color: rgb(216, 0, 0);
+    }
+}
+
